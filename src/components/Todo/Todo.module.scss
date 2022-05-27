@@ -1,0 +1,16 @@
+.Todo {
+  background: #09b5f6;
+  border-radius: 0.3em;
+  text-align: left;
+  margin: 1em 0;
+  padding: 1em;
+
+  input[type="checkbox"] {
+    float: right;
+  }
+
+  .Completed {
+    float: right;
+    text-align: right;
+  }
+}

@@ -1,0 +1,31 @@
+.todoList {
+  background: lightblue;
+  border-radius: 0.5em;
+  text-align: left;
+  margin: auto;
+  max-width: 700px;
+  padding: 1em;
+
+  .newTodoForm {
+    input[type="text"] {
+      border: none;
+      border-radius: 0.3em;
+      display: block;
+      margin: 0.5em 0;
+      padding: 0.5em;
+    }
+
+    input[type="submit"] {
+      background: darkblue;
+      border: none;
+      border-radius: 0.3em;
+      color: #fff;
+      padding: 0.5em 1em;
+
+      &:hover {
+        background: black;
+        cursor: pointer;
+      }
+    }
+  }
+}
