@@ -14,7 +14,10 @@ export default function Todo(props: TodoProps) {
   const { dispatch } = useContext(TodoContext) as TodoContextInterface;
 
   return (
-    <div className={styles.Todo}>
+    <div
+      className={styles.Todo}
+      style={{ background: props.completed ? "#24db6b" : "" }}
+    >
       <span style={{ textDecoration: props.completed ? "line-through" : "" }}>
         {props.name}
       </span>
